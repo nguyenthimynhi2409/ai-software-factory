@@ -1,0 +1,15 @@
+{
+  "sessionId": "demo-session",
+  "events": [
+    {
+      "id": "e1",
+      "timestamp": 100,
+      "type": "click",
+      "target": {
+        "testId": "login-button"
+      },
+      "value": null,
+      "metadata": {}
+    }
+  ]
+}

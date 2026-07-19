@@ -160,6 +160,17 @@ python -m unittest discover -s tests -v
 python -m apps.action_pipeline examples/session.json
 ```
 
+Record thao tác trực tiếp trên browser:
+
+```bash
+python3 -m pip install playwright
+python3 -m playwright install chromium
+python3 -m apps.action_pipeline.record https://example.com -o recorded-steps.md
+```
+
+Browser sẽ mở ở URL chỉ định. Thực hiện thao tác, quay lại terminal và nhấn
+Enter để dừng recording. Kết quả được ghi vào `recorded-steps.md`.
+
 Các lớp chính:
 
 - `models.py`: schema cho raw event, action và step.
