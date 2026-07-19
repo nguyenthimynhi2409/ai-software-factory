@@ -1,0 +1,9 @@
+{
+  "sessionId": "demo-login",
+  "events": [
+    {"id": "e1", "timestamp": 100, "type": "navigate", "target": {"url": "/login"}},
+    {"id": "e2", "timestamp": 200, "type": "input", "target": {"testId": "email"}, "value": "user@example.com"},
+    {"id": "e3", "timestamp": 300, "type": "input", "target": {"testId": "password"}, "value": "secret", "metadata": {"field": "password"}},
+    {"id": "e4", "timestamp": 400, "type": "click", "target": {"testId": "login-button"}}
+  ]
+}
